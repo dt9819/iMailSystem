@@ -1,0 +1,364 @@
+img
+{
+ user-drag: none; 
+ -moz-user-select: none;
+ -webkit-user-drag: none;
+}
+
+html{
+ height:100%;
+}
+body
+{
+ width:100%;
+ min-height:100%;
+ margin:0 0 0 0;
+ margin: auto;
+ background-image: url('../images/bg.jpg');
+}
+
+
+body#notfill
+{
+ margin:0 0 0 0;
+ margin: auto;
+ background-image: url('../images/bg.jpg');
+}
+
+
+.sidebar
+{
+ float:left;
+ width:20%;
+ background-color: #DEDCDD;
+ margin-top:2%;
+ box-shadow: 5px 5px 5px  #000000;
+ margin-left:2%;
+ height:60%;
+}
+
+.viewmailbox
+{
+ height:60%;
+ background-color:whitesmoke;
+ width:74%;
+ margin-top:2%;
+ margin-left:24%;
+ background-color: #DEDCDD;
+ box-shadow: 5px 5px 5px  #000000;
+}
+
+.composemailbox
+{
+ height:80%;
+ background-color:whitesmoke;
+ width:74%;
+ margin-top:2%;
+ margin-left:24%;
+ background-color: #DEDCDD;
+ box-shadow: 5px 5px 5px  #000000;
+}
+
+.viewmailbigbox
+{
+ height:150%;
+ background-color:whitesmoke;
+ width:74%;
+ margin-top:2%;
+ margin-left:24%;
+ background-color: #DEDCDD;
+ box-shadow: 5px 5px 5px  #000000;
+}
+
+header
+{
+ height: 16%;
+ margin: auto;
+ margin-top: 2%;
+ width: 96%;
+ background-color: #DEDCDD;
+ box-shadow: 5px 5px 5px  #000000;
+}
+
+header#mailpage
+{
+ height: 16%;
+ margin: auto;
+ margin-top: 2%;
+ width: 96%;
+ background-color: #DEDCDD;
+ box-shadow: 5px 5px 5px  #000000;
+}
+
+
+loginbox
+{
+ display: block;
+ margin: auto;
+ height: 58%;
+ width: 56%;
+ margin-top: 3%;
+ background-color: #DEDCDD;
+ box-shadow: 5px 5px 5px  #000000, -5px -5px 5px  #000000;
+}
+
+signupbox
+{
+ display: block;
+ margin: auto;
+ height: 200%;
+ width: 56%;
+ margin-top: 3%;
+ background-color: #DEDCDD;
+ box-shadow: 5px 5px 5px  #000000, -5px -5px 5px  #000000;
+}
+
+footer
+{
+ margin: auto;
+ height: 11%;
+ margin-top: 2%;
+ margin-bottom: 2%;
+ width: 90%;
+ background-color: #DEDCDD ;
+ box-shadow: 5px 5px 5px  #000000;
+}
+
+footer#mailpage
+{
+ margin: auto;
+ height: 11%;
+ margin-top: 4%;
+ margin-bottom: 2%;
+ width: 96%;
+ background-color: #DEDCDD ;
+ box-shadow: 5px 5px 5px  #000000;
+}
+
+img#loginavatar
+{
+ margin-top:2.5%;
+ margin-bottom:2.5%;
+ height:15%;
+}
+
+img#signupavatar
+{
+ margin-top:2.5%;
+ margin-bottom:2.5%;
+ height:7.5%;
+}
+
+input#loginpage
+{
+ width:50%;
+ height:10%
+}
+
+
+input#signuppage
+{
+ width:50%;
+ height:4%
+}
+
+input#composepage
+{
+ width:87%;
+ height:45px;
+ margin-top: 2%;
+}
+
+textarea#composebody
+{
+ width:96%;
+ height:48%;
+ margin-top: 2%;
+ margin-left: 2%;
+}
+
+composemargin
+{
+ margin-left: 2%;
+}
+
+input#composebutton
+{
+ width:25%;
+ height:8%;
+ margin-top: 2%;
+ margin-left: 2%;
+}
+
+input#attachbutton
+{
+ width:30.4%;
+ height:45px;
+ margin-top: 2%;
+ margin-left: 2%;
+}
+
+select#signuppage
+{
+ width:50%;
+ height:4%
+} 
+
+.buttonbar
+{
+ margin-top:6%;
+}
+input#loginbutton
+{
+ width:47%;
+ height:10%;
+ margin-left:2%;
+ float:left;
+}
+
+input#signupredirect
+{
+ width:47%;
+ height:10%;
+ margin-right:2%;
+ float:right;
+}
+
+input.signuppage#loginbutton
+{
+ width:47%;
+ height:5%;
+ margin-left:2%;
+ float:left;
+}
+
+input.signuppage#signupredirect
+{
+ width:47%;
+ height:5%;
+ margin-right:2%;
+ float:right;
+}
+
+forgottext
+{
+ margin-left:20%;
+ font-size: 65%;
+}
+
+textarea#signuppage
+{
+ width:50%;
+}
+
+table#alter tr:nth-child(even) {  
+ background-color: #eee;  
+}  
+table#alter tr:nth-child(odd) {  
+ background-color: #fff;  
+}  
+table#alter th {  
+ color: white;  
+ background-color: gray;  
+}
+
+outputbox
+{
+ -webkit-writing-mode: horizontal-tb;
+ margin: 0em;
+ font: 13.3333px Arial;
+ color: initial;
+ letter-spacing: normal;
+ word-spacing: normal;
+ text-transform: none;
+ text-indent: 0px;
+ text-shadow: none;
+ display: inline-block;
+ -webkit-appearance: textfield;
+ padding: 1px;
+ background-color: white;
+ border: 2px inset;
+ border-image-source: initial;
+ border-image-slice: initial;
+ border-image-width: initial;
+ border-image-outset: initial;
+ border-image-repeat: initial;
+ -webkit-rtl-ordering: logical;
+ -webkit-user-select: text;
+ cursor: auto;
+ padding: 1px 0px;
+ width:87%;
+ height:45px;
+ margin-top: 2%;
+}
+
+secquebox
+{
+ -webkit-writing-mode: horizontal-tb;
+ margin: 0em;
+ font: 13.3333px Arial;
+ color: initial;
+ letter-spacing: normal;
+ word-spacing: normal;
+ text-transform: none;
+ text-indent: 0px;
+ text-shadow: none;
+ display: inline-block;
+ -webkit-appearance: textfield;
+ padding: 1px;
+ background-color: white;
+ border: 2px inset;
+ border-image-source: initial;
+ border-image-slice: initial;
+ border-image-width: initial;
+ border-image-outset: initial;
+ border-image-repeat: initial;
+ -webkit-rtl-ordering: logical;
+ -webkit-user-select: text;
+ cursor: auto;
+ padding: 1px 0px;
+ width:50%;
+ height:5%;
+ margin-top: 2%;
+}
+
+msgbodydisp
+{
+ webkit-writing-mode: horizontal-tb;
+ margin: 0em;
+ font: 13.3333px Arial;
+ text-rendering: auto;
+ color: initial;
+ letter-spacing: normal;
+ word-spacing: normal;
+ text-transform: none;
+ text-indent: 0px;
+ text-shadow: none;
+ display: inline-block;
+ text-align: start;
+ -webkit-appearance: textarea;
+ background-color: white;
+ border: 1px solid;
+ border-image-source: initial;
+ border-image-slice: initial;
+ border-image-width: initial;
+ border-image-outset: initial;
+ border-image-repeat: initial;
+ -webkit-rtl-ordering: logical;
+ -webkit-user-select: text;
+ flex-direction: column;
+ resize: auto;
+ cursor: auto;
+ padding: 2px;
+ white-space: pre-wrap;
+ word-wrap: break-word;
+ font-family: monospace;
+ border-color: rgb(169, 169, 169);
+ box-sizing: border-box;
+ padding: 2px 0px 0px 2px;
+ width: 96%;
+ height: 48%;
+ margin-top: 2%;
+ margin-left: 2%;
+ overflow:auto;
+}
